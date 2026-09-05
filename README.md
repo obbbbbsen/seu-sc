@@ -1,11 +1,11 @@
 # seu-sc
 
+**English** | [简体中文](README.zh-CN.md)
+
 A reusable Codex skill for synchronizing local projects to an SEU scientific-computing cluster and choosing between:
 
 - interactive GPU debugging through an allocated SSH container; and
 - non-interactive, long-running Slurm jobs through a stable login node.
-
-The repository contains no user account, mentor-group name, SSH key, access token, cookie, or live cluster configuration. User-specific settings are created outside the skill directory.
 
 ## Requirements
 
