@@ -1,0 +1,25 @@
+# User-specific configuration and credentials
+config.json
+*.local.json
+.env
+.env.*
+!.env.example
+
+# Private keys and authentication material
+id_rsa*
+id_ed25519*
+*.pem
+*.key
+known_hosts
+authorized_keys
+
+# Generated and temporary files
+*.out
+*.err
+*.log
+*.tmp
+*.tar
+*.tar.gz
+__pycache__/
+.DS_Store
+Thumbs.db

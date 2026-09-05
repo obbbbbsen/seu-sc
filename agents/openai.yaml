@@ -1,0 +1,8 @@
+interface:
+  display_name: "SEU SC"
+  short_description: "Sync projects and choose SEU GPU debug or Slurm batch"
+  default_prompt: "Use $seu-sc to sync my local project to SEU and choose interactive GPU debugging or a Slurm batch job."
+
+policy:
+  allow_implicit_invocation: true
+
